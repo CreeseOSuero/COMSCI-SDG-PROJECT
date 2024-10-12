@@ -1,1 +1,3 @@
-# ComSci-Project-1Q
+- This is a Laboratory activity on modules 2.0 to 5.6d
+- The topics covered in this acitivty are basic html and css (float, how to add images, etc.) 
+- The link of respository is https://github.com/CreeseOSuero/ComSci-Project-1Q
