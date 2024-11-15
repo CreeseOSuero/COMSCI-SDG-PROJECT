@@ -89,6 +89,10 @@ article p{
     margin : 3em; 
 }
 
+p:hover {
+    font-size:150%;
+    color:blue; 
+}
 /*---row---*/
 
 .rows p{
