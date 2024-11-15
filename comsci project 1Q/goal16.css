@@ -114,9 +114,8 @@ nav img{
 .pj.ps.ps2{ 
     position : relative; 
  }
- 
 
-.footer{
+footer{
     align-items: center;
     display : flex; 
     height : 90px;
@@ -127,5 +126,9 @@ nav img{
     color : rgb(255, 255, 255);
 }
 
-
-
+iframe {
+    margin-top: 10em;
+    margin-left: 10em;
+    text-align: center; 
+    display : block;
+}
