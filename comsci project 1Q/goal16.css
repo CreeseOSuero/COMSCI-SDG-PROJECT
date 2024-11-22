@@ -132,3 +132,15 @@ iframe {
     text-align: center; 
     display : block;
 }
+
+.sprite {
+	background: url('images/pdsprite.jpeg');
+	width: 115.75px;
+	height: 109px;
+    animation : varName 1s steps(4) infinite; 
+}
+
+@keyframes varName{
+    from{background-position-x:0px;}
+    to{background-position-x:-463px;}
+    }
