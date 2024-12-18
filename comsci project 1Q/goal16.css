@@ -1,24 +1,28 @@
 *{
     margin : 0; 
     padding : 0; 
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Grill Sans", sans-serif;
 }
 
-.header {
+header {
     min-height : 100vh; 
     width : 100%; 
     background-image: url(images/goal16bg.jpeg);
     background-position: center; 
     background-size: cover; 
     position : relative; 
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: "Grill Sans", sans-serif;
+}
+
+p{
+    background-size: contain;
 }
 
 nav{
     display : flex; 
     height : 90px;
     justify-content : space-between; 
-    background-color : rgb(30, 48, 106);
+    background-color : rgb(58, 86, 179);
     align-items : center;
     padding : 2% 6%; 
 }
@@ -53,23 +57,27 @@ nav img{
     width : 90%; 
     transform : translate(-50%, -50%);
     color : rgb(30, 48, 106);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: pink;
     text-align : center; 
-    font-family : "Trebuchet MS", sans-serif;
+    font-family : "Grill Sans", sans-serif;
 }
 
 .title h1{
     font-size: 62px;
 }
 
-.title h3{
-    font-size : 30px; 
+.title h2{
+    font-size : 40px; 
 }
 
 .wig16{
-    width : 80%; 
-    margin : auto; 
     padding-top: 100px; 
+    margin : auto; 
+    width : 80%
 }
+
+/*---The beginning---*/
 
 .wig16 h3{ 
     font-size : 55px; 
@@ -79,7 +87,7 @@ nav img{
 
 .wig16 img {
     margin : 3em; 
-    width : 250px; 
+    width : 150px; 
     float : right;
 }
 
@@ -91,56 +99,85 @@ nav img{
     margin : 1em; 
 }
 
+/*---Audio and Video---*/
 
-.img16 {
+.AV{
+    width : 80%; 
+    height : 40%;
+    margin : 4em auto; 
+    text-align : center; 
+    border : 2px solid rgb(135,206,250);
+}
+
+.AV h3{
+    margin: 1em;
+}
+
+.AV p{
+    margin : 1em;
+}
+
+iframe {
+    border-radius : 8px;
+}
+
+.Audio{
+    border-radius : 10px; 
+    padding : 1em; 
+}
+
+audio {
+    width : 100%; 
+    margin-top : 0.5em; 
+}
+
+/*---Pictures---*/
+
+aside {
     margin-top: 10em; 
     min-height : 50vh; 
     width : 100%; 
     background-image: url(images/goal16bg2.jpeg);
     background-position: center; 
     background-size: cover; 
-    position : relative; 
-    font-family: "Trebuchet MS", sans-serif;
-}
-
-.img16 img{
-    width : 250px; 
-    margin-top: 5em; 
-    float: left;
-    margin-left: 10em;
+    display : flex; 
+    justify-content: space-evenly;
     align-items: center; 
 }
 
-.pj.ps.ps2{ 
-    position : relative; 
- }
+aside img{
+    width : 250px; 
+    margin: 2em;
+    transform : scaleX(0.9); 
+}
+
+img[attribute="special"]{
+    border : 5px solid rgb(185, 228, 255);
+}
+
+img[attribute="ordinary"]{
+    border : 5px solid rgb(128, 206, 255);
+}
+
+/*---More CSS---*/
+
+p::first-letter{
+    color : rgb(78, 55, 162);
+    font-size: 30px; 
+}
+
+h3:hover {
+    font-size:400%;
+    color: rgb(143, 179, 255);
+}
 
 footer{
     align-items: center;
     display : flex; 
     height : 90px;
     justify-content : space-between; 
-    background-color : rgb(30, 48, 106);
+    background-color : rgb(58, 86, 179);
     align-items : center;
     padding : 2% 6%; 
     color : rgb(255, 255, 255);
 }
-
-iframe {
-    margin-top: 10em;
-    margin-left: 10em;
-    text-align: center; 
-    display : block;
-}
-
-.sprite {
-	background: url('images/pdsprite.jpeg');
-	width: 115.75px;
-	height: 109px;
-    animation : varName 1s steps(4) infinite; 
-}
-
-@keyframes varName{
-    from{background-position-x:0px;}
-    to{background-position-x:-463px;}
-    }
