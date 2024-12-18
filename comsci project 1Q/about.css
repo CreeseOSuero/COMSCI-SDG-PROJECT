@@ -1,0 +1,267 @@
+*{
+    margin : 0; 
+    padding : 0; 
+    font-family: "Grill Sans", sans-serif;
+}
+
+header {
+    min-height : 100vh; 
+    width : 100%; 
+    background-image: url(images/aboutbg.jpeg);
+    background-position: center; 
+    background-size: cover; 
+    position : relative; 
+    font-family: "Grill Sans", sans-serif;
+}
+
+p{
+    background-size: contain;
+}
+
+nav{
+    display : flex; 
+    height : 86px;
+    justify-content : space-between; 
+    background-color : rgb(58, 86, 179);
+    align-items : center;
+    padding : 2% 6%; 
+}
+
+nav img{
+    width : 100px;
+}
+
+.navlinks ul li{
+    margin-top: 85px;
+    flex : 1; 
+    text-align: right; 
+    list-style: none; 
+    padding : 4px;
+    display: inline-block; 
+    position : relative; 
+}
+
+.navlinks ul li a{
+    color : rgb(255, 255, 255);
+    font-size: 18px; 
+    text-decoration : none; 
+}
+
+.navlinks ul li a:hover{
+    color: rgb(135,206,250);
+}
+
+.title {
+    position : absolute; 
+    top : 50%; 
+    left : 50%; 
+    width : 90%; 
+    transform : translate(-50%, -50%);
+    color : rgb(30, 48, 106);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: pink;
+    text-align : center; 
+    font-family : "Grill Sans", sans-serif;
+}
+
+
+.title h1{
+    font-size: 62px;
+}
+
+.title h2{
+    font-size : 40px; 
+}
+
+.title h4 {
+    font-size : 28px; 
+}
+
+.AT{
+    margin: auto;
+    width : 80%; 
+    padding-top: 100px; 
+}
+
+.AT h3{ 
+    font-size : 55px; 
+    text-align : center; 
+}
+
+.ATh1{
+    margin-top: 2.5em;
+}
+
+.AT p{
+    margin : 1em; 
+}
+
+.info{
+    width : 80%; 
+    margin : auto; 
+}
+
+.sprite {
+	background: url('images/pdsprite.jpeg');
+	width: 580px;
+	height: 109px;
+    animation : varName 1s steps(4) infinite;
+    margin-bottom: 3em; 
+}
+
+@keyframes varName{
+    from{background-position-x:0px;}
+    to{background-position-x:-463px;}
+    }
+
+/*---Piano Videos---*/
+
+.PV{
+    margin-top : 2em; 
+    margin-bottom : 2em;
+    border: 5px solid rgb(135,206,250);
+    text-align : center; 
+    }
+
+/*---Social Media links---*/
+
+.Icons {
+    display : flex; 
+    align-items: center; 
+}
+
+.FB{
+    margin-top: 0.5em; 
+    margin-bottom: 1em;  
+    background: url('images/icon.png') no-repeat -182px -91px;
+    width: 33px;
+    height: 33px;
+    
+    }
+
+.FB:hover{
+    background-position: -182px -17px;
+}
+
+.gmail{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em; 
+    background: url('images/icon.png') no-repeat -11px -91px;
+    width: 33px;
+    height: 33px;
+    }
+
+.gmail:hover{
+    background-position: -11px -16px;
+}
+
+.github{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em; 
+    background: url('images/icon.png') no-repeat -412px -91px;
+    width: 33px;
+    height: 33px;
+    size : 50%;
+    }
+
+.github:hover{
+    background-position: -412px -17px;
+}
+
+.dribble{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em; 
+    background: url('images/icon.png') no-repeat -67px -91px;
+    width: 33px;
+    height: 33px;
+    size : 50%;
+    }
+    
+.dribble:hover{
+    background-position: -67px -17px;
+    }
+
+.goodreads{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em;
+    background: url('images/icon.png') no-repeat -125px -91px;
+    width: 33px;
+    height: 33px;
+    size : 50%;
+    }
+        
+.goodreads:hover{
+    background-position: -125px -17px;
+    }
+
+.skype{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em; 
+    background: url('images/icon.png') no-repeat -240px -91px;
+    width: 33px;
+    height: 33px;
+    size : 50%;
+    }
+            
+.skype:hover{
+    background-position: -240px -17px;
+    }
+
+.twitter{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em; 
+    background: url('images/icon.png') no-repeat -296px -91px;
+    width: 33px;
+    height: 33px;
+    size : 50%;
+    }
+                
+.twitter:hover{
+    background-position: -296px -17px;
+    }
+
+.linkedln{
+    margin-left: 0.5em; 
+    margin-bottom: 1em;  
+    margin-top: 0.5em; 
+    background: url('images/icon.png') no-repeat -240px -91px;
+    width: 33px;
+    height: 33px;
+    size : 50%;
+    }
+                    
+.linkedln:hover{
+    background-position: -240px -17px;
+    }
+
+ul{
+    margin-bottom: 5em;
+}
+/*---More CSS---*/
+
+p::first-letter{
+    color : rgb(78, 55, 162);
+    font-size: 30px; 
+    }
+    
+h3:hover {
+    font-size:400%;
+    color: rgb(143, 179, 255);
+    }
+
+footer{
+    align-items: center;
+    display : flex; 
+    height : 90px;
+    justify-content : space-between; 
+    background-color : rgb(30, 48, 106);
+    align-items : center;
+    padding : 2% 6%; 
+    color : rgb(255, 255, 255);
+    }
