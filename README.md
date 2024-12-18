@@ -1,3 +1,3 @@
-- This is a Laboratory activity on modules 2.0 to 5.6d
-- The topics covered in this acitivty are basic html and css (float, how to add images, etc.) 
+- This is a Laboratory activity on modules 2.0 to 7.4.2
+- The topics covered in this acitivty are  html and css (:hover, position attributes, etc. ) 
 - The link of respository is https://github.com/CreeseOSuero/ComSci-Project-1Q
