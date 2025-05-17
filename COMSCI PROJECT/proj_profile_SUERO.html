@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Is this what JUSTICE means to you? </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "script.css" media="screen" />
+</head>
+<body>
+
+  <header>
+    <nav>
+        <img src="images/logo.png" attribute = "logo">
+        <div class = "navlinks">
+            <ul>
+                <li><a href = "main.html">HOME</a></li>
+                <li><a href = "goal16.html">GOAL 16</a></li>
+                <li><a href = "quiz.html">SDG 16 QUIZ</a></li>
+                <li><a href = "about.html">ABOUT</a></li> 
+                <li><a href = "proj_signup_SUERO.html">SIGNUP</a></li>
+                <li><a href = "proj_profile_SUERO.html">PROFILE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class = "title">
+        <h1>Is this what JUSTICE means to you? </h1>
+        <h2> A website about SDG's goal 16 </h2>
+    </div>
+  </header> 
+
+  <main class = "PROFILE">
+    <h2>Your Profile</h2><br><br>
+    <p><strong>First Name:</strong> <span id="pFN"></span></p><br><br>
+    <p><strong>Last Name:</strong> <span id="pLN"></span></p><br><br>
+    <p><strong>Email:</strong> <span id="pE"></span></p><br><br>
+    <p><strong>Sex:</strong> <span id="pS"></span></p><br><br>
+    <p><strong>Why I support this campaign:</strong> <span id="pW"></span></p><br><br>
+    <p><strong> Thank you for signing up! </strong></p>
+  </main>
+
+  <script>
+    document.getElementById("pFN").textContent = localStorage.getItem("firstName");
+    document.getElementById("pLN").textContent = localStorage.getItem("lastName");
+    document.getElementById("pE").textContent = localStorage.getItem("email");
+    document.getElementById("pS").textContent = localStorage.getItem("sex");
+    document.getElementById("pW").textContent = localStorage.getItem("why");
+  </script>
+
+  <footer>
+  <h4> Please contact email : creeseandrenee.suero@smc.pshs.edu.ph for any questions</h4> 
+  </footer>
+
+</body>
+</html>
