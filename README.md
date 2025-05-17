@@ -1,3 +1,3 @@
-- This is a Laboratory activity on modules 2.0 to 7.4.2
-- The topics covered in this acitivty are  html and css (:hover, position attributes, etc. ) 
+- This is a Laboratory activity on modules 2.0 to 14.12
+- The topics covered in this acitivty are  html, css, and js (:hover, position attributes, session handling etc. ) 
 - The link of respository is https://github.com/CreeseOSuero/COMSCI-SDG-PROJECT
